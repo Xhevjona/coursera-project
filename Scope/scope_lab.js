@@ -24,7 +24,29 @@ function show(){
     }
     show();
     
-    console.log(functionVar); // Throws ReferenceError
-    console.log(functionLet); // Throws ReferenceError
-    console.log(functionConst); // Throws ReferenceError
+    // console.log(functionVar); // Throws ReferenceError
+    // console.log(functionLet); // Throws ReferenceError
+    // console.log(functionConst); // Throws ReferenceError
     
+    // Practice task
+    // 1. Create a block
+    {
+        let a = 5;
+        const b = 10;
+        var c = 15;
+
+        // reassign values
+        a = 10;
+       // b = 15; //cannot be reassigned because b is constant
+        c = 20;
+        
+        console.log(a);
+        console.log(b);
+        console.log(c);
+    }
+    // reassign outside block
+    // a = 30; cannot be reassigned outside block
+    // b = 40; cannot be reassigned because is constant
+    c = 30; 
+
+    console.log(c);
