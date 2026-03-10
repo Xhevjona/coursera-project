@@ -49,3 +49,19 @@ console.log("User Category:", userCategory);
 let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 console.log("Authentication Status:", authenticationStatus);
+
+// practice task
+
+let Role = "employee";
+let isAuthorized;
+
+if ( Role === "employee" ) {
+    isAuthorized = "You have access to Dietary Services";
+} else if (Role === "Enrolled Member" ) {
+    isAuthorized = "You have access to Dietary Services and one-on-one interaction with dietician";
+} else if ( Role === "Subscriber" ) {
+    isAuthorized = "You have partial access to facilitate Dietary Services";
+} else  {
+    isAuthorized = "Enroll or Subscribe to avail this facility";
+}
+console.log("Is Authorised:", isAuthorized);  
