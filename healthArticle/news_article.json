@@ -1,0 +1,10 @@
+{
+    "articles": [
+      {
+        "title": "News 1",
+        "description": "This is first news",
+        "ways_to_achieve": ["Read daily", "Stay informed"],
+        "benefits": ["Knowledge", "Awareness"]
+      }
+    ]
+  }
